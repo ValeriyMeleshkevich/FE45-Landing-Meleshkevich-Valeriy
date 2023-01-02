@@ -1,6 +1,9 @@
 @import url("./cdn.css");
 @import url("./main.css");
 @import url("./something.css");
+@import url("./pricing-main.css");
+@import url("./Flex.css");
+@import url("./BG.css");
 * {
     margin: 0;
     padding: 0;

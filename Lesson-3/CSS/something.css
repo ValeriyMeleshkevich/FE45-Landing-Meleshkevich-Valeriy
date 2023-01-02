@@ -1,12 +1,11 @@
 .something-wrap{
 display: flex;
 justify-content: space-between;
-/* margin: 0px 127px 143px 123px; */
+margin-bottom: 203px;
 }
 
 .something-card{
 width: 350px;
-height: 198px;
 margin: auto;
 }
 
