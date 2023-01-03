@@ -1,68 +1,51 @@
 .pricing-wrap {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1170px;
-    margin: auto;
-    text-align: center;
-
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0px -15px;
 }
-  .pricing-tarif {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 50px;
-    width: 340px;
-    height: 50px;
-    background-color: #333333;
-    color: #fff;
-    border: 1.5px solid #F5F5F5;
-    margin: auto;
 
-    text-align: center;
-  }
+.pricing{
+  width: 340px;
+  margin: 0 15px;
+}
 
-  .pricing-coast {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 100px;
-    width: 340px;
-    height: 100px;
-    background-color: #333333;
-    color: #fff;
-    border: 1.5px solid #F5F5F5;
-    margin: auto;
-    text-align: center;
-  }
+.pricing--item {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  background-color: #FFFFFF;
+  color: #86878B;
+  margin-bottom: 4px;
+  text-align: center;
+}
 
-  .pricing-info {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    width: 340px;
-    height: 50px;
-    line-height: 50px;
-    background-color: #333333;
-    color: rgba(255, 255, 255, 0.5);
-    border: 1.5px solid #F5F5F5;
-    margin: auto;
-    text-align: center;
-  }
+.pricing-tarif {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: #333333;
+  color: #fff;
+  margin-bottom: 2px;
+}
 
-  .pricing-space {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    width: 340px;
-    height: 40px;
-    line-height: 40px;
-    background-color: #FFFFFF;
-    color: #86878B;
-    border: 2.5px solid #F5F5F5;
-    margin: auto;
-    text-align: center;
-  }
+.pricing-cost {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 100px;
+  background-color: #333333;
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+
+.pricing-info {
+  font-weight: 600;
+  line-height: 50px;
+  background-color: #333333;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 2px;
+}
