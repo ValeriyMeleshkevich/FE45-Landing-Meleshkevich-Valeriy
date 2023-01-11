@@ -39,10 +39,11 @@
 }
 
 .navigation-list {
+    width: 489px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    column-gap: 25px;
+    /* column-gap: 25px; */
 
 }
 

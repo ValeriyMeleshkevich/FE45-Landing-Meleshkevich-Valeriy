@@ -1,6 +1,7 @@
-.contact{
+.contact {
     margin-bottom: 100px;
 }
+
 .contact-title {
     text-align: center;
     font-family: 'Raleway';
@@ -40,6 +41,13 @@
     justify-content: space-between;
 }
 
+.item {
+    position: relative;
+    width: 478.01px;
+    background: #FFFFFF;
+    margin-bottom: 50px;
+}
+
 form {
     position: relative;
     width: 478.01px;
@@ -48,7 +56,7 @@ form {
 
 }
 
-.Name {
+.name {
     width: 40px;
     height: 19px;
     font-family: 'Open Sans';
