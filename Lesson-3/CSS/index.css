@@ -1,13 +1,13 @@
 @import url("./cdn.css");
 @import url("./something.css");
-@import url("./Flex.css");
+@import url("./pricing.css");
 @import url("./customers.css");
 @import url("./design.css");
 @import url("./contact.css");
 @import url("./footer.css");
 @import url("./navigation.css");
 @import url("./social.css");
-
+@import url("./prototypes.css");
 
 * {
     margin: 0;
@@ -25,5 +25,22 @@
     max-width: 1170px;
     padding: 0 15px;
     margin: auto;
-    /* position: relative; */
+    position: relative;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #BDBDBD;
+    width: 100%;
+}
+
+label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    margin-bottom: 10px;
 }
